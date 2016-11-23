@@ -26,3 +26,8 @@ void ALevelTransitor::Tick( float DeltaTime )
 
 }
 
+void ALevelTransitor::ChangeLevel(FString name)
+{
+	
+}
+
