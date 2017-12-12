@@ -21,8 +21,8 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	UPROPERTY(EditAnywhere, Category = "Level")
-		FString NewLevel;
+		FName NewLevel;
 
 private:
-	void ChangeLevel(FString name);
+	void ChangeLevel(FName name);
 };
